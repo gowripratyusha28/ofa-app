@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".WholePlaceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/bowl1_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/bowl1_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundshape_edittext1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="25dp"
+                    android:background="#FF6062"
+                    android:paddingLeft="45dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="45dp"
+                    android:paddingBottom="9dp"
+                    android:text="meals"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioGroup
+                        android:id="@+id/bowl1_radiogroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/bowl1_radiobutton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"/>
+
+                        <RadioButton
+                            android:id="@+id/bowl1_radiobutton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="7dp"/>
+
+                        <RadioButton
+                            android:id="@+id/bowl1_radiobutton3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl1_product1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak PowerPack"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl1_cost1"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl1_strikeText1"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl1_strikeText1"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:text="₹2700"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl1_product2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak Supreme"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/cost2"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl1_strikeText2"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl1_strikeText2"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl1_product3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak Xtreme"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl1_cost3"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl1_strikeText3"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl1_strikeText3"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/monthLine1"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/bowl1_linear"
+                android:background="@drawable/roundshape_edittext2"
+                android:gravity="center"
+                android:textAllCaps="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bowl2_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="25dp"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/bowl2_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundshape_edittext1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="25dp"
+                    android:background="#FF6062"
+                    android:paddingLeft="45dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="45dp"
+                    android:paddingBottom="9dp"
+                    android:text="meals"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioGroup
+                        android:id="@+id/bowl2_radiogroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/bowl2_radiobutton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"/>
+
+                        <RadioButton
+                            android:id="@+id/bowl2_radiobutton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="7dp"/>
+
+                        <RadioButton
+                            android:id="@+id/bowl2_radiobutton3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl2_product1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak PowerPack"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl2_cost1"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl2_strikeText1"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl2_strikeText1"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:text="₹2700"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl2_product2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak Supreme"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl2_cost2"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl2_strikeText2"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl2_strikeText2"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl2_product3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak Xtreme"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl2_cost3"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl2_strikeText3"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl2_strikeText3"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/monthLine2"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/bowl2_linear"
+                android:background="@drawable/roundshape_edittext2"
+                android:gravity="center"
+                android:textAllCaps="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bowl3_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="25dp"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/bowl3_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundshape_edittext1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="25dp"
+                    android:background="#FF6062"
+                    android:paddingLeft="45dp"
+                    android:paddingTop="9dp"
+                    android:paddingRight="45dp"
+                    android:paddingBottom="9dp"
+                    android:text="meals"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioGroup
+                        android:id="@+id/bowl3_radiogroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/bowl3_radiobutton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"/>
+
+                        <RadioButton
+                            android:id="@+id/bowl3_radiobutton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="7dp"/>
+
+                        <RadioButton
+                            android:id="@+id/bowl3_radiobutton3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl3_product1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak PowerPack"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl3_cost1"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl3_strikeText1"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl3_strikeText1"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:text="₹2700"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl3_product2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak Supreme"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl3_cost2"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl3_strikeText2"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl3_strikeText2"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="30dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/whole_bowl3_product3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FitFreak Xtreme"
+                                android:textColor="#B4242E"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/bowl3_cost3"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@id/bowl3_strikeText3"
+                                android:background="@drawable/roundshape_edittext"
+                                android:gravity="center"
+                                android:textSize="13sp"
+                                android:textColor="#B4242E"/>
+
+                            <TextView
+                                android:id="@+id/bowl3_strikeText3"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/monthLine3"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/bowl3_linear"
+                android:background="@drawable/roundshape_edittext2"
+                android:gravity="center"
+                android:textAllCaps="true" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:textColor="#FF6062"
+            android:text="For more information about product.Click here"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="Fit Freak PowerPack : Healthy Snack Meal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fit Freak Supreme : High protein, Low Carbs, High Fibre Meal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="FitFreak Xtreme : Body Transformation Meal" />
+
+
+    </LinearLayout>
+
+</ScrollView>
